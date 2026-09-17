@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiries | OVRSIZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>OVRSIZ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Work With Us / Product Enquiries</h2>
+        <p>Want to become a brand ambassador or have a question about bulk orders? Fill out the form below.</p>
+
+        <!-- Enquiry Form using standard HTML5 inputs -->
+        <form action="#" method="POST">
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="enquiryType">Type of Enquiry:</label><br>
+            <select id="enquiryType" name="enquiryType">
+                <option value="product">Product Information</option>
+                <option value="ambassador">Brand Ambassadorship</option>
+                <option value="wholesale">Wholesale / Bulk Order</option>
+            </select><br><br>
+
+            <label for="details">Please provide details:</label><br>
+            <textarea id="details" name="details" rows="5" cols="40" required></textarea><br><br>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 OVRSIZ Clothing. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
